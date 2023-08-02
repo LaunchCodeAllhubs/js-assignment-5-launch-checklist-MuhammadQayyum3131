@@ -23,7 +23,7 @@ form.addEventListener("submit", function(event) {
             event.preventDefault();
     }
     if (validateInput(pilot.value) == "Is a Number" || validateInput(copilot.value) == "Is a Number" || validateInput(fuelLevel.value) == "Not a Number" || validateInput(cargoLevel.value) == "Not a Number") {
-        list.style.visibility = "hiddin";
+        list.style.visibility = "hidden";
         alert ("Make sure to enter valid information for each field!")
         event.preventDefault();
     }
